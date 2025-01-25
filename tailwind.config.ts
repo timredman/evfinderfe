@@ -16,6 +16,9 @@ export default {
         lato: ['var(--font-lato)'],
         roboto: ['var(--font-roboto)'],
       },
+      maxWidth: {
+        'copy': '50rem', // 800px equivalent
+      },
     },
   },
   plugins: [],
