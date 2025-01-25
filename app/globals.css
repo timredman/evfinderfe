@@ -5,6 +5,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #26314f;
+  --secondary: #f5a431;
+  --accent: #c7d93d;
+  --tint: #fbd4a0;
+  --shade: #1a2233;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,12 +20,19 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-roboto);
 }
 
 h1, h2, h3, h4, h5 {
   font-family: var(--font-lato);
+  color: var(--primary);
+}
+
+p {
+  color: var(--primary);
+}
+
+a {
+  color: var(--primary);
 }
 
