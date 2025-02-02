@@ -17,8 +17,8 @@ export default function Header() {
           </Link>
           <ul className="flex space-x-6">
             <li>
-              <Link href="/" className="text-primary hover:text-secondary">
-                Home
+              <Link href="/companies" className="text-primary hover:text-secondary">
+                Companies
               </Link>
             </li>
             <li>
